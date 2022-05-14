@@ -3,5 +3,5 @@ snowflake-connector-python
 
 
 
-apt update
+python --version
 
