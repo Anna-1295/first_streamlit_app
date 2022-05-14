@@ -3,5 +3,5 @@ snowflake-connector-python
 
 
 
-python --version
+
 
