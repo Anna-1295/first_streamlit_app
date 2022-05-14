@@ -3,6 +3,6 @@ snowflake-connector-python
 
 
 
-import snowflake.connector
+from snowflake import connector
 
 
