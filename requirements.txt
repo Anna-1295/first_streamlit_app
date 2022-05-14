@@ -3,6 +3,6 @@ snowflake-connector-python
 
 
 
-pip install -U pip
+pip install 
 pip install snowflake-connector-python
 
