@@ -3,6 +3,5 @@ snowflake-connector-python
 
 
 
-sudo pip install 
-sudo pip install snowflake-connector-python
+apt update
 
