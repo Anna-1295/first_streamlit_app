@@ -40,6 +40,14 @@ try:
 except URLError as e:
  streamlit.error()
  
+ 
+my_cnx=snowflake.connector.connect(**streamlit.secrets["snowflake"])
+my_cur = my_cnx.cursor()
+my_cur.execute("select * from fruit load list")
+my_data_rows = my_cur.fetchall()
+streamlit.header("The fruit load list contains: ")
+streamlit.dataframe (my_data_rows)
+ 
 
 
 
