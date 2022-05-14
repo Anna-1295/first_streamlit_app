@@ -2,5 +2,8 @@
 snowflake-connector-python
 
 
-python3 -m pip install pyopenssl --user
+python -m venv myenv
+source myenv/bin/activate
+pip install -U pip
+pip install snowflake-connector-python
 
